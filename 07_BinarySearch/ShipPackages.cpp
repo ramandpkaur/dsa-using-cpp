@@ -2,13 +2,10 @@
 using namespace std;
 
 int main() {
-    int k=2; //Number of workers
-    int N=4; //number of boards to be painted
-    int A[]={12,34,67,90}; //Array of board sizes
+    int M=2; //Number of days
+    int N=4; //number of parcels to be shipped
+    int A[]={12,34,67,90};; //Array of weight of parcels
 
-    if(k<N)
-        return -1;
-    
     int start=0, end=0, mid, ans;
     
     for(int i=0; i<N; i++) {
