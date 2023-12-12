@@ -6,7 +6,9 @@ int main() {
     int n = 12;
     int count=0;
 
-    while()
+    while(false) {
+        
+    }
 
 
 }
