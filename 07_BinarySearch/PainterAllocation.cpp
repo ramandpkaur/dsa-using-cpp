@@ -28,7 +28,7 @@ int main() {
             }
         }
         
-        if(count<=M) {
+        if(count<=k) {
             ans = mid;
             end = mid-1;
         }
