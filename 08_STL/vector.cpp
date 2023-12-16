@@ -2,6 +2,7 @@
 
 #include<iostream>
 #include<vector>
+#include "../../../usr/include/c++/9/bits/algorithmfwd.h"
 using namespace std;
 
 int main() {
@@ -135,10 +136,10 @@ int main() {
         // Print the vector
     }
 
-    cout<<v4.rbegin();
+    v4.rbegin();
     // Points to location previous to the first element of vector
 
-    cout<<v4.end();
+    v4.end();
     // Points to the last element of vector
 
     for(auto it=v4.rend(); it!=v4.rbegin(); it--) {
@@ -173,7 +174,7 @@ int main() {
     /* *********************     
     Search elements in a Vector 
     ********************* */
-    cout<<binary_search(ans.begin(), ans.end(), 6);
+    cout<<binary_search(arr.begin(), arr.end(), 6);
     // Returns true if the element exists in the given range
 
     cout<<find(v7.begin(), v7.end(), 6);
@@ -185,19 +186,19 @@ int main() {
     /* *********************     
     Important Functions related to Vectors
     ********************* */
-    cout<<count(ans.begin(), ans.end(), 6);
+    cout<<count(arr.begin(), arr.end(), 6);
     // Returns number of occurence of element 6 in the range
 
-    cout<<max_element(ans.begin(), ans.end());
+    cout<<max_element(arr.begin(), arr.end());
     // Returns the maximum element in the given range
 
-    cout<<min_element(ans.begin(), ans.end());
+    cout<<min_element(arr.begin(), arr.end());
     // Returns the minimum element in the given range
 
-    cout<<lower_bound(ans.begin(), ans.end(), 10);
+    cout<<lower_bound(arr.begin(), arr.end(), 10);
     // Returns the iterator pointing to the first element greater than 10 in the given range
 
-    cout<<upper_bound(ans.begin(), ans.end(), 50);
+    cout<<upper_bound(arr.begin(), arr.end(), 50);
     // Returns the iterator pointing to the first element less than 50 in the given range
 
     
